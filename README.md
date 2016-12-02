@@ -9,7 +9,7 @@ Merupakan form untuk mendaftar beasiswa. Dalam form ini user akan mengisi data d
 
 ![Screenshot 3](https://github.com/finarizky/Pendaftaran-Beasiswa-CP/blob/master/Screenshot_2016-12-02-13-29-56.png)
 
-https://drive.google.com/file/d/0B8g4y4NeC5fmQ0ZNQlVwbXBYejQ/view
+Link APK : https://drive.google.com/file/d/0B8g4y4NeC5fmQ0ZNQlVwbXBYejQ/view
 
 Nama : Fina Rizky Pratiwi
 
