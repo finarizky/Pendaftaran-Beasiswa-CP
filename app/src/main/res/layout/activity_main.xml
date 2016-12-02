@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:id="@+id/imageView"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@drawable/ic_school_black_24dp" />
 
         <ScrollView
             android:id="@+id/scroll"
