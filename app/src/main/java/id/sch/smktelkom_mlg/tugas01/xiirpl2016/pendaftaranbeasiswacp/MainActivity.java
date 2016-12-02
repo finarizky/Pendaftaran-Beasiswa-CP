@@ -64,12 +64,12 @@ public class MainActivity extends AppCompatActivity {
                 hasil = rb.getText().toString();
             }
 
-            String hsl = "Data Diri : ";
+            String hsl="Hobby : ";
             int startlen = hsl.length();
             if (cbBaca.isChecked()) hsl += cbBaca.getText() + "\n";
             if (cbMB.isChecked()) hsl += cbMB.getText() + "\n";
             if (cbOR.isChecked()) hsl += cbOR.getText() + "\n";
-            tvHasil.setText("Nama anda : "+nama +"\n Tanggal Lahir : "+TTL +"\n Jenis Kelamin : "+hasil +"\n Hobby : "+hsl +"\n Pekerjaan Orang Tua : "+spPO.getSelectedItem().toString());
+            tvHasil.setText("Nama anda : "+nama +"\nTanggal Lahir : "+TTL+"\nJenis Kelamin : "+hasil+"\n"+hsl+"\nPekerjaan Orang Tua : "+spPO.getSelectedItem().toString());
         }
     }
 
@@ -79,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
         String nama = etNama.getText().toString();
         String TTL = etTTL.getText().toString();
+
 
         if (nama.isEmpty())
         {
@@ -91,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (TTL.isEmpty())
         {
-            etTTL.setError("Tahun Kelahiran Belum Diisi");
+            etTTL.setError("TTL Kelahiran Belum Diisi");
         }
         else
         {
